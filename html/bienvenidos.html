@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/gestion.css">
+    <script src="/JS/gestion.js"></script>
+    <title>Gestion de cliente</title>
+</head>
+<body>
+    <form id="form" class="gestion">
+
+        <h1>Gestion al cliente</h1>
+
+        <label for="nombre">Nombre</label>
+        <input id="nombre" >
+    
+        <label for="apellido">Apellido</label>
+        <input id="apellido" >
+        
+        <label for="cedula">Cédula</label>
+        <input id="cedula" >
+
+        <label for="telefono">Télefono</label>
+        <input id="telefono" >
+
+        <label for="direccion">Dirección</label>
+        <input id="direccion" >
+
+        <!-- <button class="button" type="submit">Guardar</button> -->
+
+        <input type="button" value="Guardar" onclick="guardar()"> 
+
+    </form>
+    <br>
+    <div class="table">
+        <table id="mitabla">
+            <tr>
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Cédula</th>
+                <th>Télefono</th>
+                <th>Dirección</th>
+             </tr>
+
+             <tr>
+                <td>José</td>
+                <td>Garzón</td>
+                <td>4335678</td>
+                <td>2345678907</td>
+                <td>timbio</td>
+             </tr>
+
+        </table>
+    </div>
+
+
+</body>
+</html>
