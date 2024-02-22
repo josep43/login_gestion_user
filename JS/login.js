@@ -3,7 +3,7 @@ function login(){
     let password=document.getElementById("clave").value;
 
     if (user=="José" && password== "12345") {
-        window.location= "bienvenidos.html";
+        window.location= "/pages/bienvenidos.html";
     } else {
         alert("Los datos no coinciden")
     }

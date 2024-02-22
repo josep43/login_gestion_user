@@ -59,19 +59,23 @@ input[type="button"]:hover{
 }
 /* table */
 div.table{
-
-    margin: 20px, 20px;
-    /* text-align: center; */
+    width: 32em;
+    height: 20em;
+    padding-top: 20px;
+    margin: 50px auto;
+    border-radius: 15px;
+    background-color: #c9c9c9;
 }
 
 
 th{
     padding: 10px;
+    border-radius: 8px;
     border: solid 1px #b60000;
 }
 
 td{
     padding: 10px;
-    border: solid 1px #9b1a1a;
-    /* background-color: #c9c9c9; */
+    border-radius: 8px;
+    border: solid 3px #ffff;
 }
